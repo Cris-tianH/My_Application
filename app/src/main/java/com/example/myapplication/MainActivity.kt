@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
                 showToast("Por favor ingresa correo y contraseña")
             } else {
                 //Primero verificamos el acceso especial (parcia2)
-                if (email == "parcia2" && password == "26112025") {
+                if (email == "parcial2" && password == "26112025") {
                     // Si coincide, entramos directamente sin llamar a Firebase
                     irAPantallaPrincipal(email)
                 }
