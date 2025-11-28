@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/baseline_home_24"
+            android:title="Inicio"
+            android:id="@+id/fragment1"
+            />
+        <item
+            android:icon="@drawable/round_accessibility_24"
+            android:title="Tareas"
+            android:id="@+id/fragment2"
+            />
+        <item
+            android:icon="@drawable/round_accessibility_24"
+            android:title="Tareas con imagen"
+            android:id="@+id/fragment3"
+            />
+
+    </group>
+</menu>
